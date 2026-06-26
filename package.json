@@ -1,0 +1,16 @@
+{
+  "name": "roblox-anticheat-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server untuk forward Roblox AntiCheat notif ke Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
