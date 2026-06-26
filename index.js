@@ -22,7 +22,7 @@ app.use(express.json());
 // Cari di: Game Settings -> Basic Info -> Place ID
 // ============================================================
 const ALLOWED_GAME_IDS = [
-  "1234567890", // Ganti dengan Place ID game lo
+  "78768524879499", // Ganti dengan Place ID game lo
   // "0987654321", // Tambah ID lain kalau perlu
 ];
 
@@ -73,8 +73,8 @@ async function sendToDiscord(webhookUrl, embed) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        username: "🛡 AntiCheat Bot",
-        avatar_url: "https://i.imgur.com/Q3VhRRk.png",
+        username: "Polisi Cheat",
+        avatar_url: "https://imgur.com/mFTnkHx",
         embeds: [embed],
       }),
     });
